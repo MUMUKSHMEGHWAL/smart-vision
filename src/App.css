@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+p {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerContainer {
   display: flex;
-  flex-direction: column;
+}
+
+.searchBarInputContainer {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 48%;
+}
+
+.searchBarInput {
+  width: 83%;
+    height: 24px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.searchBtn {
+  border: none;
+  border-radius: 24px;
   color: white;
+  font-size: 14px;
+  letter-spacing: .75px;
+  padding: 8px 12px;
+  text-transform: uppercase;
+  text-align: center;
+  background: #eb595f;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  margin: 20px 80px 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.productDetectedList {
+  margin: 0px 80px;
+  text-transform: capitalize;
+}
+
+.cotainer {
+  margin: 20px 80px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-column-gap: 40px;
+}
+
+.imageContainer img{
+  /* border: 1px solid #d1d1d4; */
+}
+
+.resultContainer {
+  max-height: 570px;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.result {
+  border: 1px solid #d1d1d4;
+  max-height: 280px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.resultImageContainer {
+  display: flex;
+  justify-content: center;
+}
+.resultImageContainer img{
+  height: 180px;
+  width: auto;
+  overflow: hidden;
+}
+
+.productDescription {
+  padding: 8px 12px 12px; 
+}
+
+.productPrice {
+  font-weight: 500;
+  color: #eb595f;
+    font-size: 18px;
+}
+
+.productName {
+  text-transform: capitalize;
+  font-size: 14px;
+  margin-top:8px
+}
+
+.productType {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #7a6e77;
+  margin-top:4px
+}
+
+.loaderContainer {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: black;
+    opacity: 0.7;
+}
+.loaderContainer div{
+  display: flex;
+    padding: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heartIcon {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.productContainer{
+  cursor: pointer;
+  outline: none;
+  color: inherit;
+  text-decoration-line: none;
 }
