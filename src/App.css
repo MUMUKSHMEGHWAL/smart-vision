@@ -6,6 +6,10 @@ p {
   display: flex;
 }
 
+.HeaderBottom {
+  border-bottom: 1px solid #d1d1d4;
+}
+
 .searchBarInputContainer {
   display: flex;
   align-items: center;
@@ -130,4 +134,16 @@ h3 {
   outline: none;
   color: inherit;
   text-decoration-line: none;
+}
+
+.productDetectedList {
+  display: flex;
+  align-items: center;
+}
+.tag {
+  border-radius: 20px;
+    background-color: #eceaeb;
+    padding: 4px 8px;
+    opacity: 0.8;
+    margin-right: 8px;
 }
