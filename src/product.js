@@ -18,10 +18,11 @@ export const productList = {
         imageLink: "https://cdn.shopify.com/s/files/1/0491/8496/4771/products/winchester-3-seater-sofa_1_1100x.jpg?v=1611753587",
         tags: ["blue","Soft"]
     },{
-        productURL: "https://www.ukeyo.com/products/rollins-sofa-collection?variant=39945524707508",
+        productURL: "https://www.ukeyo.com/collections/sofas-and-sectional/products/hayden-home-barrington-3-seater-sofa-ash-grey-cotton",
         price: "37,390",
-        productName: "Golden Mayer Rollins Sofa Collection",
-        imageLink: "https://www.ukeyo.com/collections/sofas-and-sectional/products/hayden-home-barrington-3-seater-sofa-ash-grey-cotton",
+        productName: "Hayden Home Barrington 3 Seater Sofa, Ash Grey-Cotton",
+        imageLink: "https://cdn.shopify.com/s/files/1/0491/8496/4771/products/sofa-4-3-seater-fabric_8_f9d1bd3d-12e8-4bb2-89e3-11b3d57772e8_1100x.jpg?v=1643004047",
+
         tags:  ["grey","Soft"]
     },{
         productURL: "Hayden Home Barrington 3 Seater Sofa, Ash Grey-Cotton",

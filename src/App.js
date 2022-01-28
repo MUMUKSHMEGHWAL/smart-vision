@@ -110,7 +110,7 @@ class App extends React.Component {
                   const products = productList[productType];
                   return products && products.length ? productList[productType].map((product, i) => {     
                     return (
-                    <a className="productContainer" href={product.productURL} key={i}>
+                    <a className="productContainer" href={product.productURL} key={i} target="_blank">
                     <div className="result">
                       <div className="resultImageContainer">
                         <img 
