@@ -84,7 +84,7 @@ class App extends React.Component {
             <div className="searchBarInputContainer">
               <input className="searchBarInput"
                 onInput={this.onSearchInputChange}
-                placeholder="Search Products by Image"
+                placeholder="Search Products by Image, paste image url..."
               />
               <button  className="searchBtn" 
                 onClick={this.getProductFromImage}> Search</button>

@@ -17,9 +17,22 @@ export const productList = {
         productName: "Winchester 3 Seater Sofa",
         imageLink: "https://cdn.shopify.com/s/files/1/0491/8496/4771/products/winchester-3-seater-sofa_1_1100x.jpg?v=1611753587",
         tags: ["blue","Soft"]
+    },{
+        productURL: "https://www.ukeyo.com/products/rollins-sofa-collection?variant=39945524707508",
+        price: "37,390",
+        productName: "Golden Mayer Rollins Sofa Collection",
+        imageLink: "https://www.ukeyo.com/collections/sofas-and-sectional/products/hayden-home-barrington-3-seater-sofa-ash-grey-cotton",
+        tags:  ["grey","Soft"]
+    },{
+        productURL: "Hayden Home Barrington 3 Seater Sofa, Ash Grey-Cotton",
+        price: "52,800",
+        productName: "Golden Mayer Rollins Sofa Collection",
+        imageLink: "https://cdn.shopify.com/s/files/1/0491/8496/4771/products/Rollins3seatersteelgrey_1_ls_1100x.jpg?v=1637818324",
+        tags:  ["grey","Soft"]
     }]
 ,
-    "chair": [{
+    
+"table": [{
         productURL: "https://www.ukeyo.com/collections/all-dining-tables/products/urban-ladder-liana-zella-4-seater-dining-table-set",
         price: "25000",
         productName: "Zella 4 Seater Dining Table Set",
@@ -31,8 +44,24 @@ export const productList = {
         productName: "Catria Teak 4 Seater Dining Table",
         imageLink: "https://cdn.shopify.com/s/files/1/0491/8496/4771/products/1_0ca302de-8cd0-46fa-b2aa-54868a29c0b3_1100x.jpg?v=1614311709",
         tags:  ["Teak","WooD"]
-    }
+    },
     ]
+, 
+
+ "chair": [{
+        productURL: "https://www.ukeyo.com/products/palmero-accent-chair?_pos=6&_sid=8a0513fd2&_ss=r&variant=39945558425780",
+        price: "25,890",
+        productName: "Golden Mayer Palmero Accent Chair",
+        imageLink: "https://cdn.shopify.com/s/files/1/0491/8496/4771/products/PalmeroArmChairFossilGreen_1_ls_1100x.jpg?v=1623747030",
+        tags: ["Khaki","WooD"]
+    },{
+        productURL: "https://www.ukeyo.com/products/eleanor-accent-chair?_pos=12&_sid=8a0513fd2&_ss=r",
+        price: "22,078",
+        productName: "Hayden Home Eleanor Accent Chair",
+        imageLink: "https://cdn.shopify.com/s/files/1/0491/8496/4771/products/cover_image_502fa466-5b56-43d3-b735-5bc13d4a05cb_1100x.jpg?v=1623648322",
+        tags:  ["Grey","WooD"]
+    }
+    ] 
 ,
     "stool": [{
         productURL: "https://www.ukeyo.com/products/browny-storage-stool?_pos=16&_sid=6f22caa67&_ss=r",
@@ -67,6 +96,7 @@ export const productList = {
     }
     ]
 }
+ 
 
 
 
